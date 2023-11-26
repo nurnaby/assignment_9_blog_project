@@ -15,14 +15,14 @@
                                 <ul class="navigation">
                                     <li class="active"><a href="{{ route('home') }}">Home</a></li>
                                     <li><a href="{{ route('about') }}">About</a></li>
-                                    <li><a href="services-details.html">Project</a></li>
+                                    <li><a href="{{ route('project') }}">Project</a></li>
 
 
-                                    <li><a href="contact.html">contact me</a></li>
+                                    <li><a href="{{ route('contact') }}">contact me</a></li>
                                 </ul>
                             </div>
                             <div class="header__btn d-none d-md-block">
-                                <a href="contact.html" class="btn">Contact me</a>
+                                <a href="{{ route('contact') }}" class="btn">Contact me</a>
                             </div>
                         </nav>
                     </div>
